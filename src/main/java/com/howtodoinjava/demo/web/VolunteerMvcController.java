@@ -24,9 +24,9 @@ public class VolunteerMvcController
 	@RequestMapping
 	public String getAllVolunteers(Model model) 
 	{
-		List<VolunteerEntity> list = service.getAllVolunteers();
+		//List<VolunteerEntity> list = service.getAllVolunteers();
 
-		model.addAttribute("volunteers", list);
+		//model.addAttribute("volunteers", list);
 		return "list-volunteers";
 	}
 
